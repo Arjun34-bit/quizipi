@@ -1,0 +1,88 @@
+.quiz-container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.quiz-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.quiz-timer {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.quiz-card {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  text-align: left;
+}
+
+.quiz-question {
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.quiz-options {
+  display: flex;
+  flex-direction: column; /* Aligns options vertically */
+  gap: 10px; /* Adds spacing between options */
+}
+
+.radio-btn {
+  display: flex;
+  align-items: center; /* Aligns radio buttons and text properly */
+  gap: 8px; /* Space between radio button and text */
+  cursor: pointer; /* Makes it clickable */
+}
+
+.radio-btn input {
+  appearance: none; /* Removes default styling */
+  width: 16px;
+  height: 16px;
+  border: 2px solid #007bff;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+}
+
+.radio-btn input:checked {
+  background-color: #007bff; /* Changes background color when selected */
+  border-color: #0056b3;
+}
+
+.radio-btn input:checked::before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+
+.primary-button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.primary-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
