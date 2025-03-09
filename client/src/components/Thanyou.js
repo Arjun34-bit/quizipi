@@ -8,7 +8,7 @@ function ThankYou() {
       <h1>🎉 Thank You! 🎉</h1>
       <p>Your response has been submitted successfully.</p>
       <Link to="/" className="home-button">
-        Go Back to Home
+        Go Back to Home Page
       </Link>
     </div>
   );

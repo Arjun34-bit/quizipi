@@ -61,7 +61,7 @@ const Home = () => {
             src="https://images.unsplash.com/photo-1546410531-bb4caa6b424d?w=36&h=36&fit=crop&crop=faces"
             alt="EduQuiz Logo"
           />
-          Quizpi
+          Quizpi App
         </div>
         <div className="nav-links">
           <a href="#home" className="active">
